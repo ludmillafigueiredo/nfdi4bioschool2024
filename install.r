@@ -1,4 +1,1 @@
-install.packages("readr")
-install.packages("janitor")
-install.packages("dplyr")
-install.packages("ggplot2")
+install.packages(c("readr", "janitor", "dplyr", "ggplot2"))
