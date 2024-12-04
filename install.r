@@ -3,5 +3,4 @@ packages <- c(
   "ragg", "rcartocolor", "janitor", "ggtext", "here"
 )
 
-install.packages(setdiff(packages, rownames(installed.packages())),
-                 lib = "/home/lfigueiredo/R-lib")
+install.packages(setdiff(packages, rownames(installed.packages())))
