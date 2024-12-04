@@ -3,4 +3,6 @@ packages <- c(
   "ragg", "rcartocolor", "janitor", "ggtext", "here"
 )
 
-install.packages(setdiff(packages, rownames(installed.packages())))
+install.packages("readr")
+install.packages("janitor")
+install.packages
